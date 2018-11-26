@@ -6,11 +6,30 @@ body {
 
 }
 
+.compteur {
+    width: 100%;
+    height: 20px;
+    background: #e2e2e2;
+    position: fixed;
+    top: 0;
+    z-index: 50;
+}
+
+.compteur div {
+    width: 0;
+    height: 20px;
+    background: #35BE9B;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    transition: width 3.5s;
+
+}
+
 header img {
     width: 20%;
     margin: auto;
     display: block;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 header h1 {
@@ -33,32 +52,63 @@ header h1 {
 
 .projets .projet {
     display: block;
-    width: 80%;
+    width: 60%;
     min-height: 100px;
-    background: #F26914;
+    background: #f2f2f2;
     margin-top: 40px;
     border-radius: 20px;
     box-shadow: 5px 5px 30px #c4c4c4;
     position: relative;
     transition: background .3s;
+    border: 5px solid #d0d0d0;
+
+}
+
+.validate_p {
+    background-color: #35BE9B !important;
+    border-color: #35BE9B !important;
+    color: white !important;
+}
+
+.validate_p:hover {
+    border: 5px solid #35BE9B !important;
+    background-color: #e0e0e0 !important;
+
+}
+
+.validate_p .titre {
+    color: white !important;
 }
 
 .projets .projet .validate {
-    display: block;
+    display: none;
     position: absolute;
     width: 50px;
-    right: -15px;
-    top: -15px;
+    right: -20px;
+    top: -20px;
     opacity: 1;
     transition: opacity .3s;
 }
+
+/**
+.projets .projet:before{
+    content : '';
+    width : 30px;
+    height : 30px;
+    position:absolute;
+    top:-15px;
+    left:-15px;
+    background:url("../img/not_validate.png") no-repeat center ;
+    background-size:cover;
+    
+} **/
 
 .projets .projet .titre {
     display: block;
     opacity: 1;
     text-align: center;
     width: 96%;
-    color: #ffe1ce;
+    color: #797979;
     margin: 0;
     font-size: 20px;
     overflow: hidden;
@@ -79,7 +129,7 @@ header h1 {
 }
 
 .projets .projet:hover {
-    background: #e0e0e0;
+    background: #fff !important;
 }
 
 .projets .projet .icon {
