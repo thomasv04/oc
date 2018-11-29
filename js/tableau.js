@@ -102,7 +102,7 @@ let projet5 = {
     ],
     pourcentage: [
         "100%",
-        "60%",
+        "95%",
     ],
     lien: [
         "http://thomas-vigneron.fr/generateur/",

@@ -113,8 +113,13 @@ function modif_projet(div_click) {
     }
 
 
+
     for (var i = nb_competence(nom_projet) - 1; i > -1; i--) {
-        $('.content').prepend('<div class="objectif"><div class="titre"><p>' + competence[i] + '</p></div><div class="barre_progression"><div class="barre"><div class="total" style="width:' + pourcentage[i] + ';"></div></div></div></div>');
+        var zero = null;
+        if (pourcentage[i] == "0%") {
+            zero = "zero";
+        }
+        $('.content').prepend('<div class="objectif"><div class="titre"><p>' + competence[i] + '</p></div><div class="barre_progression"><div class="barre"><div class="total" style="width :' + pourcentage[i] + ';  "><div class="' + zero + '">' + pourcentage[i] + '</div></div></div></div></div>');
     }
 
 
@@ -140,7 +145,7 @@ function modif_projet(div_click) {
 
 
 $(function () {
-    let vitesse_anim = 700;
+    let vitesse_anim = 500;
 
     $('.projet').click(function () {
         modif_projet(this);
@@ -157,7 +162,7 @@ $(function () {
         $('.contenu_projet').css('display', 'block');
         $('.contenu_projet').delay(vitesse_anim).animate({
             opacity: '1'
-        }, vitesse_anim);
+        }, 1);
         $('.carre').delay(vitesse_anim).animate({
             left: '0px'
         }, vitesse_anim);
