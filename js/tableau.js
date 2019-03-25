@@ -12,7 +12,7 @@ let projet1 = {
         "100%",
     ],
     lien: [
-        "http://www.thomas-vigneron.fr/journal/",
+        "https://www.thomas-vigneron.fr/journal/",
         "https://drive.google.com/open?id=1zKLur29ekHxGaqULvFvIYD8baA6uBw3m",
         "https://github.com/thomasv04/OC_P1",
     ],
@@ -34,7 +34,7 @@ let projet2 = {
         "100%",
     ],
     lien: [
-        "http://thomas-vigneron.fr/chaletsetcaviar/",
+        "https://thomas-vigneron.fr/chaletsetcaviar/",
         "https://drive.google.com/open?id=1dhOCyMhX68Yqg2m5kCf0ayUyuxpjvRF6",
         "https://github.com/thomasv04/OC-P2",
     ],
@@ -59,7 +59,7 @@ let projet3 = {
         "100%",
     ],
     lien: [
-        "http://thomas-vigneron.fr/films_plein_air/",
+        "https://thomas-vigneron.fr/films_plein_air/",
         "https://drive.google.com/drive/folders/1xOKcXKBtwIELHzOWYIGsHDFkJm8u4rhP?usp=sharing",
         "https://github.com/thomasv04/OC_P3",
     ],
@@ -88,8 +88,8 @@ let projet4 = {
         "https://drive.google.com/open?id=1pD3CSw4VCcOPlr_mYH6Oho4K2x0I1HH6",
         null,
     ],
-    commence: 1,
-    valide: 0,
+    commence: 0,
+    valide: 1,
 
 };
 
@@ -102,15 +102,15 @@ let projet5 = {
     ],
     pourcentage: [
         "100%",
-        "95%",
+        "100%",
     ],
     lien: [
-        "http://thomas-vigneron.fr/generateur/",
+        "https://thomas-vigneron.fr/generateur/",
         null,
         "https://github.com/thomasv04/OC_P5",
     ],
-    commence: 1,
-    valide: 0,
+    commence: 0,
+    valide: 1,
 
 };
 
@@ -123,17 +123,17 @@ let projet6 = {
         "Développer une application JavaScript orientée objet",
     ],
     pourcentage: [
-        "0%",
-        "0%",
-        "0%",
+        "100%",
+        "100%",
+        "100%",
     ],
     lien: [
+        "https://thomas-vigneron.fr/jeu_plateau/",
         null,
-        null,
-        null,
+        "https://github.com/thomasv04/OC_P6",
     ],
     commence: 0,
-    valide: 0,
+    valide: 1,
 
 };
 
@@ -145,16 +145,16 @@ let projet7 = {
         "Utiliser une API externe en JavaScript",
     ],
     pourcentage: [
-        "0%",
-        "0%",
+        "100%",
+        "100%",
     ],
     lien: [
+        "https://thomas-vigneron.fr/maps/",
         null,
-        null,
-        null,
+        "https://github.com/thomasv04/OC_P7",
     ],
     commence: 0,
-    valide: 0,
+    valide: 1,
 
 };
 
@@ -167,16 +167,16 @@ let projet8 = {
         "Optimiser les performances d'un projet à l'aide des DevTools",
     ],
     pourcentage: [
-        "0%",
-        "0%",
-        "0%",
+        "100%",
+        "100%",
+        "90%",
     ],
     lien: [
+        "https://thomas-vigneron.fr/todo/",
         null,
-        null,
-        null,
+        "https://github.com/thomasv04/OC_P8",
     ],
-    commence: 0,
+    commence: 1,
     valide: 0,
 
 };
