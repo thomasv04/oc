@@ -169,15 +169,15 @@ let projet8 = {
     pourcentage: [
         "100%",
         "100%",
-        "90%",
+        "100%",
     ],
     lien: [
         "https://thomas-vigneron.fr/todo/",
         null,
         "https://github.com/thomasv04/OC_P8",
     ],
-    commence: 1,
-    valide: 0,
+    commence: 0,
+    valide: 1,
 
 };
 
@@ -189,15 +189,15 @@ let projet9 = {
         "Mettre en place un tableau de bord de veille technologique",
     ],
     pourcentage: [
-        "0%",
-        "0%",
+        "100%",
+        "100%",
     ],
     lien: [
         null,
         null,
         null,
     ],
-    commence: 0,
+    commence: 1,
     valide: 0,
 
 };
